@@ -13,7 +13,7 @@ redirect_from:
   - placing-the-liveengage.html
 
 ---
-To use the LivePerson's web live chat or web messaging, you must first place the LiveEngage Monitor Tag on your website. The tag allows brands to identify and monitor visitors on their website, empowering agents to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
+To use LivePerson's web live chat or web messaging, you must first place the LiveEngage Monitor Tag on your website. The tag allows brands to identify and monitor visitors on their website, empowering agents to engage with visitors based upon real-time behaviors and maintain continuous conversations with visitors as they browse.
 
 The LiveEngage Tag consists of a small, lightweight piece of code that opens the door for the built-in functionalities of the web live chat and web messaging communication channels. The tag loads asynchronously, so it will not affect initial page loading time.
 
@@ -35,7 +35,7 @@ The default functionality offered by dynamically-loaded taglets is described bel
 
 ## Getting your tag
 
-To obtain the LivePerson tag for your account, login with admin credentials and pull down the menu under your user name > select LiveEngage tag.
+To obtain the LivePerson tag for your account, login with admin credentials and pull down the menu under your user name and select LiveEngage tag.
 
 ![](/img/LP tag Gif-1.gif)
 
@@ -51,15 +51,15 @@ If the tag is included via an external javascript file, it should look this:
 
 ### Follow these guidelines:
 
-* Add tag to every page of your website (this does not mean that the button will display on every page, but it is important for integrity of the user experience)
+* Add the tag to every page of your website (this does not mean that the button will display on every page, but it is important for integrity of the user experience)
 * The code should be included as high up in the `<head>` element as possible.
-* If the tag is included a javascript file, be sure to omit the `<script> tag and <!-- HTML comments -->`
+* If the tag is included in a javascript file, be sure to omit the `<script> tag and <!-- HTML comments -->`
 * For mobile compatibility, ensure that the <head> of your web pages includes the following meta tag: `<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>``
   * The minimum tag required is the following: `<meta name="viewport" content="width=device-width>`
 
 ## Using the LivePerson Tag with a tag management system
 
-Tag management systems are incorporated to make smart decisions about when to fire each tag, for example on a visitor’s first visit, or when a specific page is visited. Generally, fewer tags means less load time, and therefore a reduction in the chances of an error. Typically today, all tags are fired asynchronously, removing a large part of site load time.
+Tag management systems are incorporated to make smart decisions about when to fire each tag, for example on a visitor’s first visit, or when a specific page is visited. Generally, fewer tags means less load time, and therefore a reduction in the chances of an error. Typically all tags are fired asynchronously, removing a large part of site load time.
 
 {: .notice}  
 Using a tag management system can cause a delay in loading of engagements if the LivePerson Tag is loaded after many other tags. To reduce load time, we recommend placing the LiveEngage Tag as high up in the loading sequence as possible.
