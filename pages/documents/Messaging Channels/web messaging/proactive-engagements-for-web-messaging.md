@@ -13,7 +13,7 @@ date: 2019-03-17 16:27:32 +0200
 ---
 ## Introduction
 
-Offering customers targeted engagements at different stages of their customer journey from beginning to end can lead to an increase in sales and greater customer satisfaction. For example, a customer who appears close to abandoning their cart might be offered immediate sales support, while a visitor hovering over the bill payments page can trigger an offer from an agent to engage.
+Offering customers targeted engagements at different stages of their customer journey from beginning to end can lead to an increase in sales and greater customer satisfaction. For example, a customer who appears close to abandoning their cart might be offered immediate sales support, while a visitor hovering over the bill payments page could trigger an offer from an agent to engage.
 
 A proactive engagement campaign, which targets customers based on a certain set of conditions, achieves this by allowing your brand to engage with customers at specific points during their visit to your site, helping to guide them towards a sale and promote customer retention. A wide variety of customer profiles can be targeted based on their geolocation, onsite activities, customer information and more.
 
@@ -23,7 +23,7 @@ Proactive engagements offer a rich, hard to miss experience for consumers and ar
 
 ### Number of displays
 
-This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two or three times, or unlimited; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
+This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two, three, or unlimited times; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
 
 ### Invite after decline
 
@@ -43,7 +43,7 @@ To create a proactive campaign, follow these steps:
  4. Give your Goal a name, such as ‘Generate Leads’, then select the Goal Type and indicator, which should define what activity will be counted as successful towards this goal. Click _Save_ in the bottom right corner, and then _Done_ on the next page.
  5. Next adjust your Campaign Audience and Campaign Timeframe, selecting the most appropriate parameters to meet your goal.
  6. To add an engagement, click the _Add Engagement_ button on your main campaign page.
- 7. You can use this page to customize your engagement by format, use case, style and size - you can even design your own button and tailor it to your brand. For a proactive campaign, we recommend using a sticky, toaster or slide-out format (LiveEngage offers a number of other effective campaign types to meet your needs - see the selection below). Click _Next_.
+ 7. You can use this page to customize your engagement by format, use case, style and size - you can even design your own button and tailor it to your brand. For a proactive campaign, we recommend using a sticky, toaster or slide-out format (LiveEngage offers a number of other effective campaign types to meet your needs). Click _Next_.
  8. In the Engagement Studio you can customize different aspects of the Engagement, adding your own branded design if preferred. Click _Save_.
  9. The Window Studio is next, giving you the chance to personalize your conversation window branding and configure surveys. Give your window a name and click _Save_.
 10. In the Location Library, you can choose where you would like your button to appear - as this is a proactive campaign, choose the page most appropriate for your engagement. Click _Next_.
