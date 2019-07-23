@@ -59,16 +59,16 @@ Brands can configure the maximum time a conversation can stay idle, during which
 If you are planning to create messaging campaigns tailored for tracking sales and conversions, ensure you define the following settings (can be found on the campaigns settings footnote).
 
 1. **Define your currency**: You can define what currently you would like to track your sales and conversions in. This currency will reflect in your reports.  For more info, [click here](data-reporting-engagement-attributes-multi-currency.html).
-2. **Cross session period:** Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase only 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
+2. **Cross session period:** Often your consumers will not purchase on the first visit to your website.  You can define how long a ‘cross session’ applies. For example, a cross session of 2 weeks means that if a consumer visited your site, had a messaging conversation, and came back to purchase 2 weeks later - that sale will be attributed as a conversion following that specific conversation.
 3. **Conversion Attribution model:** In the case that more than one agent or bot handled the conversation, define who should get the conversion. First agent? Last agent? Split?
 
 ## 5. Creating a campaign
 
 Before you can start creating your buttons or banners, you need to set up your campaign. In LiveEngage, **engagements can be added to either new or existing campaigns**.
 
-To create a new one, simply click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
+To create a new campaign, click “**Add campaign**” at the bottom of the campaigns page, or select an existing campaign to add your engagement to.
 
-When creating a campaign, you first need to define the following:
+When creating a campaign, you need to define the following:
 
 * [Business goal](contact-center-management-campaigns-campaign-goals.html)
 * [Target audience](contact-center-management-campaigns-target-audience.html)
@@ -80,17 +80,17 @@ Click on each of these links for a more in-depth explanation. Once these items h
 
 You can now begin creating banners or buttons to add to your website. These engagements are created in the **engagement studio**, where a campaign wizard will guide you through the process.
 
-**To add a new web engagement to your campaign**, click “**add engagement**” and select web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
+**To add a new web engagement to your campaign**, click “**Add engagement**” and select Web as the engagement source. This will open the template gallery within the campaign wizard. There are six stages for creating web engagements: **gallery, settings, studio, window, entry point and behavior.**
 
 ![](/img/add-web-messaging-to-your-website-1.png)
 
-### Template gallery
+### Engagement Template gallery
 
-The template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
+The engagement template gallery page allows you to choose the format of your engagement and whether you are trying to create a messaging button or content banner. Learn more about choosing your engagement format here.
 
 ### Engagement settings
 
-From the settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content on this page.
+From the engagement settings page, you can define the conversation channel, authentication and routing. You can also customize your Automatic Messages and Predefined Content on this page.
 
 ![](/img/add-web-messaging-to-your-website-2.png)
 
@@ -137,7 +137,7 @@ When selecting the condition, look for a globe icon next to the word “**Suppor
 
 ## 7. Publishing your campaign
 
-Your new mobile app engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).
+Your new engagement is now complete. From the **Campaign Summary page**, you can give your engagement a name, edit all aspects of the engagement, enable or disable the engagement and publish. To learn more about publishing and unpublishing campaigns, [click here](contact-center-management-campaigns-managing-campaigns.html#publishing-and-unpublishing-campaigns).
 
 ## Displaying your engagements
 
@@ -157,7 +157,7 @@ Proactive engagements offer a rich, hard to miss experience for consumers and ar
 
 **Number of displays**
 
-This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two or three times, or unlimited; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
+This setting allows you to limit the number of times a proactive engagement is displayed in total during a visit. When the limit is reached, no other proactive engagements will be displayed in that visit. You can select from one, two, three, or unlimited times; the default setting is unlimited. You can also choose to select different settings for conversation and content engagements.
 
 **Invite after decline**
 
@@ -185,6 +185,6 @@ To optimize your web experience, tag of all your web pages:
 <div class="notice">
 <b>Note:</b>
 <ul> If the <b>viewport meta tag</b> does not exist on the page, on mobile devices the window will open in a different browser tab (instead of being embedded within the page).
-<li>Manual ettr</li> <li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li>
+<li>If the <b>viewport meta tag</b> exists on the page, even if the content is different from the recommendation above, the window will still be embedded on the page. Your site can be pinch-and-zoomable and the window will still be embedded on the page as long as the meta tag is there.</li>
 </ul>
 </div>
