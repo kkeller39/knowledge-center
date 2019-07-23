@@ -22,11 +22,11 @@ With campaigns for mobile app messaging, brands can easily create and manage dig
 
 _To be completed within your brand’s app by a mobile developer:_
 
-* Implement the new SDK
+* Implement the SDK
 * Implement the SDK’s Monitoring APIs
 
 <br/>
-_To be completed within LiveEngage by campaign manager, contact center manager, or project manager:_
+_To be completed within LiveEngage by a campaign manager, contact center manager, or project manager:_
 
 * Install the Mobile App application
 * Create new campaigns and engagements
@@ -37,7 +37,7 @@ For an overview of campaigns in LiveEngage and their terminology, [click here](c
 
 ## 1. Planning and thought starters
 
-_(completed by contact center manager, project manager or program manager)_
+_(completed by a contact center manager, project manager or program manager)_
 
 Answering these questions will help you prepare and streamline your campaign creation process:
 
@@ -71,7 +71,7 @@ By adding monitoring capabilities to your campaign, you can display tailored eng
 
 ## 3. Install the mobile app data source
 
-_(completed by contact center manager, project manager or program manager)_
+_(completed by a contact center manager, project manager or program manager)_
 
 Before you can create engagements for your mobile app, you must first configure the mobile app data source in LiveEngage. To do this, go to the campaigns area, select [Data sources](data-reporting-engagement-attributes-data-sources-engagement-attributes-overview.html) from the campaign footnote, and follow these instructions:
 
@@ -138,7 +138,7 @@ The engagement language selected in this step will only affect items in the agen
 
 The window language displayed within the app (hardcoded texts like button text, window header etc.) is set by the consumer’s mobile device language settings. In order to understand which text elements are configured locally on the device, refer to[ Mobile String Localization](https://developers.liveperson.com/consumer-experience-ios-sdk-localizationkeys.html) on the Developers Community, for the full string localization keys.
 
-Once your settings are complete, click **next**.
+Once your settings are complete, click **Next**.
 
 ### Entry point
 
@@ -146,7 +146,7 @@ You will now reach the entry point library. An [entry point](contact-center-mana
 
 **Note:** By default only the relevant entry points for mobile app messaging will be displayed. To view all entry points on the account, choose ‘All entry points’ from the filter. All entry points will then be displayed, however only mobile app messaging entry points can be chosen. For further information on **creating a new entry point**, please refer [here](contact-center-management-campaigns-entry-point.html).
 
-When you are finished defining your entry point, click **next**.
+When you are finished defining your entry point, click **Next**.
 
 ### Visitor behavior
 
@@ -156,7 +156,7 @@ The next page is the visitor behavior library. Here you can decide when to displ
 
 When selecting the condition, look for a mobile phone icon next to the word “**Supported**,” which indicates that this engagement attribute is applicable for mobile engagements. For more information on **creating a new behavior**, [click here](contact-center-management-campaigns-visitor-behavior.html).
 
-When you are finished defining your visitor behavior, click **next**.
+When you are finished defining your visitor behavior, click **Next**.
 
 ### Publishing your campaign
 
@@ -199,8 +199,8 @@ As you create campaigns, you can create messages that are specific to that topic
 
 ### Set up a routing bot
 
-The Routing Bot enables brands to easily identify the intent of the consumer and the reason why he/she has requested to message with the brand. The bot then routes the consumer to the relevant skill that can handle the inquiry. To learn more about the Routing Bot and how it is configured, [click here](conversation-builder-routing-bot-tutorial-overview.html).
+A Routing Bot enables brands to easily identify the intent of the consumer and the reason why he/she has requested to message with the brand. The bot then routes the consumer to the relevant skill that can handle the inquiry. To learn more about a Routing Bot and how it is configured, [click here](conversation-builder-routing-bot-tutorial-overview.html).
 
 ### Set up the Post Conversation Survey
 
-The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving higher completion rate and helping you to improve customer satisfaction. To learn more about the Post Conversation Survey and how it is configured, [click here](ai-bots-automation-post-conversation-survey-bot.html).
+The Post Conversation Survey enables brands to gather feedback from consumers at the end of conversations and measure their success across all messaging channels. The survey is delivered in a conversational experience, driving a higher completion rate and helping you to improve customer satisfaction. To learn more about the Post Conversation Survey and how it is configured, [click here](ai-bots-automation-post-conversation-survey-bot.html).
