@@ -78,13 +78,13 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ## Customer experience configurations
 
-### Q: For how long can a customer access the history of a conversation?
+### Q: How long can a customer access the history of a conversation?
 
 **A:** By default consumers can load upto 13 months of conversations history. (starting with SDK v3.1) Each brand can choose which conversations to present to the consumer in the conversation window by date and/or by status.
 
 ### Q: How does the communication work?
 
-**A:** Brands customize and deploy LiveEngage messaging SDK within their app and choose where to add the CTA. When consumers initiate a conversation, they are notified exactly when an agent will respond. Consumers can initiate a conversation anytime. For authenticated customers, LiveEngage oAuth2 services verify the consumer’s identity and securely pass Personally Identifiable Information (PII) to LiveEngage. Agents receive messages directly through the LiveEngage Agent Workspace and launch a connection from there.
+**A:** Brands customize and deploy the LiveEngage messaging SDK within their app and choose where to add the CTA. When consumers initiate a conversation, they are notified exactly when an agent will respond. Consumers can initiate a conversation anytime. For authenticated customers, LiveEngage oAuth2 services verify the consumer’s identity and securely pass Personally Identifiable Information (PII) to LiveEngage. Agents receive messages directly through the LiveEngage Agent Workspace and launch a connection from there.
 
 ### Q: Can brands control the circumstances in which the messaging button is available for consumers based on active open conversations in queue?
 
@@ -102,11 +102,11 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 ### Q: What reports are available?
 
-**A:** Real-time data is available in LiveEngage, both for agent and agent manager, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports.
+**A:** Real-time data is available in LiveEngage, both for agents and agent managers, containing only relevant information to the role. Agent managers see metrics relevant to their role on an additional, configurable dashboard. Messaging has a separate customizable History Dashboard which will includes operational data reports.
 
 ### Q: What aspects of customer history are tracked?
 
-**A:** LiveEngage tracks all customer conversation transcripts. Tracked information includes the customer’s name, device type and source origin (Facebook, app, web). In the case that the customer has passed along any personal data (such as their email or phone number), that information is displayed as well. CSAT score is included and appended directly to the relevant conversation. In the API that will be available in a beta phase by the end of Aug you will be able to retrieve the conversations with all the above customer data.
+**A:** LiveEngage tracks all customer conversation transcripts. Tracked information includes the customer’s name, device type and source origin (Facebook, app, web). In the case that the customer has passed along any personal data (such as their email or phone number), that information is displayed as well. The CSAT score is included and appended directly to the relevant conversation. In the API that will be available in a beta phase by the end of August 2019, you will be able to retrieve the conversations with all the above customer data.
 
 ### Q: Can agents take messaging conversations and live chats at the same time?
 
@@ -122,14 +122,14 @@ A: Yes, the SDK can send push notifications. Please refer to the following guide
 
 **The following features are implemented as part of the solution:**
 
-* LivePerson utilizes the oAuth 2.0 and gets access as a 3rd party to the customer’s personal information. This process begins by accepting a unique and secure customer identifier from the app, relaying it (through the SDK when using app messaging) to the LivePerson backend and decrypting it to allow the agent access to the enclosed personal information. There is no need to expose the customer’s login credentials.
+* LivePerson utilizes oAuth 2.0 and gets access as a 3rd party to the customer’s personal information. This process begins by accepting a unique and secure customer identifier from the app, relaying it (through the SDK when using app messaging) to the LivePerson backend and decrypting it to allow the agent access to the enclosed personal information. There is no need to expose the customer’s login credentials.
 * Authenticated conversations are available only inside the authenticated area and only after receiving an updated token from the brand’s server confirming successful login. This ensures that only the consumer can view the conversation with the brand.
 * The entire communication is delivered on top of secured https and wss connections.
 * Push notifications can be masked, or configured to exclude the actual message, and instead present only an indication that a new message is available to the consumer’s secure mailbox. This ensures that the data is available only to the consumer. Similarly, masking can be configured to hide inputted credit card numbers provided by the consumer from the agent, the consumer, or both.
 
 ### Q: Where is the information stored?
 
-**A:** In both iOS and Android, data generated by the LivePerson SDK and stored on the user’s mobile device. The encryption is based on 256bit AES. Transcripts and other session variables are stored on the LivePerson DB as well.
+**A:** In both iOS and Android, data generated by the LivePerson SDK are stored on the user’s mobile device. The encryption is based on 256bit AES. Transcripts and other session variables are stored on the LivePerson DB as well.
 
 ### Q: For how long are transcripts stored?
 
