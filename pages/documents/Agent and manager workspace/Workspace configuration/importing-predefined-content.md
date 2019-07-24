@@ -1,5 +1,5 @@
 ---
-pagename: 'Importing predefined content '
+pagename: 'Importing Predefined Content '
 categoryName: Agent & manager workspace
 subCategoryName: Workspace configuration
 indicator: both
@@ -11,7 +11,7 @@ isNew: false
 date: 2019-01-31 08:52:22 +0000
 
 ---
-In order to import content successfully and avoid import errors, simply follow the best practice steps below.
+In order to import content successfully and avoid import errors, follow the best practice steps below.
 
 {: .notice}
 **Note:** Supported file type is .CSV file, UTF 8 encoding only
@@ -20,17 +20,19 @@ In order to import content successfully and avoid import errors, simply follow t
 
 1. Go to the **Predefined content library**
 2. **Export your current .CSV file from LiveEngage and work on this file      as your template**
-3. Edit content and translations to the CSV file. We recommend Google Spreadsheet, Numbers, or OpenOffice for this purpose. **UTF 8 encoding** only is supported
+   * Go to the Action menu on the right hand side of the page
+   * Select "Export"
+3. Edit the content and translations in the CSV file. We recommend Google Spreadsheet, Numbers, or OpenOffice for this purpose. Only **UTF 8 encoding** is supported
 4. While editing the document, keep the following guidelines in mind:
-   * **If you wish to modify an existing entry:** Do not change the item ID if you wish to keep any of the existing content, as if the ID is changed it will be added it as a new line.
+   * **If you wish to modify an existing entry:** Do not change the item ID if you wish to keep any of the existing content, as if the ID is changed it will be added as a new line.
    * **If you wish to delete an entry:** Delete the entire line from the file, including the item ID.
    * **If you wish to add a new entry:**
      * **Item ID column:**
-       * The value shall contain a new positive integer and should not remain empty.
-       * Simply add any non-existing (new) positive integer item number that not exist.
+       * The value must contain a new positive integer and should not remain empty.
+       * Add any non-existing (new) positive integer item number that does not exist.
        * In order to avoid mistakes, it’s recommended to sort the existing item numbers and proceed with the same sequences.
      * **Language column:** To add a new translation row (to existing predefined content), duplicate the row, keep the existing item ID but change the language code as needed.
-     * **Hot Keys column:** The Hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if hot key is not needed.
+     * **Hot Keys column:** The hot keys combinations are unique, you cannot use the same hot key in 2 different item numbers. You may leave this cell empty if a hot key is not needed.
 
 **For example:**
 
@@ -42,21 +44,24 @@ In order to import content successfully and avoid import errors, simply follow t
 | 22 | en-UK | Chat again | Thank you for your time.    Please do contact us again whenever you need assistance. | Closing |
 
 {:start="5"}
-2\. Save the edited file. Make sure to save it with a **UTF 8 encoding** only. Other encoding files are not supported.
+2\. Save the edited file. Make sure to save it with a **UTF 8 encoding** only. Other encoding formats are not supported.
 
 {: .important}
 **Note**: Using the ';' character in the file is not supported - ';' is considered as a new line in the import process and may create undesired behavior. In order to prevent this, avoid using this character in any of the cell values.
 
 ## Importing the file
 
-1. Go back to the Predefined content page, and click the **Choose File**      button.
+1. Go to the Predefined content page
+   * Go to the Action menu on the right hand side of the page
+   * Select "Import"
+   * Click the **Choose File...**      button.
 2. Locate your CSV file, and then click the **Open/Choose** button.
 3. Click the **Import** button at the bottom of the page.  
    The import process will only perform actions on rows that have been      changed, as follows:
-   * In case the item ID cell was left empty or an unsupported format was entered -> **ERROR** will display on LiveEngage system.
+   * In case the item ID cell was left empty or an unsupported format was entered -> **ERROR** will display on the LiveEngage system.
    * In case the item ID already existed in the file and an additional attribute in the row is changed -> This predefined content will be **UPDATED** on LiveEngage.
    * In case the item ID already existed in the file and no other attribute in this row is changed -> This predefined content will remain as it is on LiveEngage (**no operation** will be carried out).
-   * In case of a new item ID (non-existing positive integer) -> The item will be **ADDED** as a new predefined content on LiveEngage.
+   * In case of a new item ID (non-existing positive integer) -> The item will be **ADDED** as new predefined content on LiveEngage.
    * In case one item ID is deleted from the file -> The item will be **DELETED** from LiveEngage as well.
 4. While in progress, you can click the **Run in Background** button to continue working in the system. An icon will be added to the top bar and will notify you when the upload is complete. Pressing the notification will take you back to the import related page.
 5. A CSV file with your current items will be automatically downloaded as a      backup.
