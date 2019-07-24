@@ -11,25 +11,25 @@ isNew: false
 date: 2019-01-31 08:27:46 +0000
 
 ---
-Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs. Brands can add as many personalized responses as they need in order to respond effectively to consumers. This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with deciding tone and how to most effectively use hot keys.
+Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs. Brands can add as many personalized responses as they need in order to respond effectively to consumers. This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with defining tone and how to most effectively use hot keys.
 
 ## Structuring predefined content
 
 * **Name your responses well**
-  * Ensure that you name your response with something that is easy to search/understand for your agent and is specific. Aim to use language the agent would use. (I.e., do not call the response ResponseOption2, or SC4200T.)
+  * Ensure that you name your response with something that is easy to search/understand for your agents and is specific. Aim to use language the agent would use. (I.e., do not call the response ResponseOption2, or SC4200T.)
 * **Number your responses**
   * The system will automatically order the responses alphabetically. Place a number in front of your responses to keep these in your desired order for each category.
 * **Keep categories succinct and specific**, and in the same order as the conversation flow.
 * **Only create as many categories as is needed**
-  * Keep these to a minimum and ensure these follow the conversation structure to help support your agent.
+  * Keep these to a minimum and ensure these follow the conversation structure to help support your agents.
 * **Don’t create too many responses**
   *  It’s very easy to want to create a response for every eventuality. It is much better to start small and grow the responses as needed than to overload the agent with too many options.
 * **Consider if a link may do a better job than the response**
-  * In some cases, the customer experience may be enhanced by sending a link. The website may better support and explain a process/procedure/product than through a predefined response.
+  * In some cases, the customer experience may be enhanced by sending a link. The website may better support and explain a process/procedure/product than a predefined response.
 * **Allow responses to flow as per your process flow**
   * If you have a process that needs to be followed, ensure the responses mirror this order.
 * **Keep manual input for the agent to a minimum**
-  * Where possible, create the responses in such a way that the agent does not need to add in personalized extra information. (e.g.: I’ve just looked into that for you ‘insert customer name’).
+  * Where possible, create the responses in such a way that the agent does not need to add in personalized extra information. (E.g.: I’ve just looked into that for you ‘insert customer name’).
 
 ## Establishing tone and content
 
@@ -40,11 +40,11 @@ Consider that messaging requires short, to the point and conversational response
 * **Mirror the brand tone**
   * Ensure that the responses are not too process driven, and that these mirror the brand tone. A good ‘go to’ for guidelines for this would be any social brand guidelines within the business, as these are the closest to messaging requirements.
 * **Keep the language conversational**
-  * You want to ensure that the responses sound natural and that the agents will be comfortable injecting these into their conversations. If these are too robotic or scripted, the customer experience is hampered and the agent is less likely to use responses.
+  * You want to ensure that the responses sound natural and that the agents will be comfortable injecting these into their conversations. If these are too robotic or scripted, the customer experience is hampered and the agent is less likely to use the responses.
 * **Use contractions and everyday language**
   * Language use greatly effects the tone of the responses. Keep this to everyday language, and use contractions to help cement this. E.g.: ‘I am happy to assist you with this’ could be: I’ll be happy to help.
 * **Use character limit and natural line breaks**
-  * Keep in mind that certain devices have a character limit. Ensure that links do not fall over this limit as they will not work for the customer if incomplete.
+  * Keep in mind that certain devices have a character limit. Ensure that links do not go past this limit as they will not work for the customer if incomplete.
 * **Manage expectations**
   * Help support your agent with responses that manage expectations. Instead of, ‘This will take 5 minutes, could you please wait?’, consider ‘I’ll get back to you when this is done.’ Also, have responses ready to set the scene for customer if there is a lot of data or many questions coming their way.
 * **Explain messaging**
@@ -117,7 +117,7 @@ F. Consider adding great responses from transcripts.
 
 * Thanks for using our new messaging service. Have a great day!
 
-### ID&V
+### ID & Verification
 
 * I’ll need to get a few details from you before we can start, just to make sure we get you authenticated.
 * I’m happy to help. I just need to take a few details from you first.
@@ -127,7 +127,7 @@ F. Consider adding great responses from transcripts.
 
 ### Communicating end of day/closure for brands not available 24/7
 
-* Just to let you know, our messaging service closes in about 20 minutes. We will re-open tomorrow at 8:00 AM. Would you like to pick up again tomorrow or would you prefer a phone number for our call team?
+* Just to let you know, our messaging service closes in about 20 minutes. We will reopen tomorrow at 8:00 AM. Would you like to pick up again tomorrow or would you prefer a phone number for our call team?
 * If you are willing to wait, I’ll be back at 12:30 PM. We can pick up then or I can assign you to a colleague who can speak with you before then. (Don’t worry, they will have this messaging history). What would you prefer?
 
 {: .notice}
