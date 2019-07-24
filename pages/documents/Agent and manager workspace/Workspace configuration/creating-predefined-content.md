@@ -10,7 +10,7 @@ isTutorial: false
 isNew: false
 
 ---
-When you first open LiveEngage, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the campaigns tab. You can use and edit the predefined content, or you can add your own relevant content, according to your business needs.
+When you first open LiveEngage, you’ll find ready-made, predefined content in the predefined content library, which is accessed through the campaigns tab. You can use and edit the predefined content, and you can add your own relevant content, according to your business needs.
 
 ## To add a new item to your predefined content library:
 
@@ -30,11 +30,13 @@ When you first open LiveEngage, you’ll find ready-made, predefined content in 
 
 {:start="4"}
 1. Select the language of your predefined response. If the language is not displayed, click the + sign to add a new language.
-2. Enter the title and text for the predefined response. You can also add dynamic text to your predefined response, including skill name, skill description, agent name, agent nickname and agent email.
+2. Enter the title and text for the predefined response. You can also add dynamic text to your predefined response, including skill name, skill description, agent name, agent nickname and agent email.*
 3. Select the category for the predefined response. This will affect the category where the response is displayed in the agent workspace.
 4. Select the Hot Key combination that agents can use to send the predefined response during a conversation with a consumer.
 5. Ensure that the predefined response is toggled on.
 6. Click **Save**, or click **Save & add another** if you want to add additional items. The predefined response is now displayed in the Predefined Content library.
+
+* Note:  HTML is only supported for chat.
 <br/>
 
 ## To edit an existing predefined content response:
@@ -54,4 +56,6 @@ When you first open LiveEngage, you’ll find ready-made, predefined content in 
 ![](/img/creating-predefined-content-6.png)
 
 {:start="4"}
-1. Edit the predefined response as required, and then click **Save**. The updated predefined response will now be displayed in the predefined content library.
+1. Edit the predefined response as required, and then click **Save**. The updated predefined response will now be displayed in the predefined content library.*
+
+* Note:  HTML is only supported for chat.
